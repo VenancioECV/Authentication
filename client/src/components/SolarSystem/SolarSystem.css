@@ -1,0 +1,92 @@
+/*
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+  }
+  
+  #solar-system {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('url-to-background-image.jpg') center center no-repeat;
+    background-size: cover;
+  }
+  
+  #sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background: url('url-to-sun-image.png') center center no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #fff, 0 0 100px #fff, 0 0 150px #fff;
+    animation: rotate-sun 10s linear infinite;
+  }
+  
+  .planet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fff;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  #mercury {
+    animation: rotate-planet 3s linear infinite;
+    animation-delay: 0.1s;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(80px);
+    background-image: url('url-to-mercury-image.png');
+  }
+  
+  #venus {
+    animation: rotate-planet 6s linear infinite;
+    animation-delay: 0.2s;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(110px);
+    background-image: url('url-to-venus-image.png');
+  }
+  
+  #earth {
+    animation: rotate-planet 9s linear infinite;
+    animation-delay: 0.3s;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(140px);
+    background-image: url('url-to-earth-image.png');
+  }
+  
+  #mars {
+    animation: rotate-planet 12s linear infinite;
+    animation-delay: 0.4s;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(170px);
+    background-image: url('url-to-mars-image.png');
+  }
+  
+  #jupiter {
+    animation: rotate-planet 15s linear infinite;
+    animation-delay: 0.5s;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(200px);
+    background-image: url('url-to-jupiter-image.png');
+  }
+  
+  #saturn {
+    animation: rotate-planet 18s linear infinite;
+    animation-delay: 0.6s;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(230px);
+    background-image: url('url-to-saturn-image.png');
+  }
+  
+  #uranus {
+    animation: rotate-planet 21s linear infinite;
+    animation-delay: 0.7s;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(260px);
+    background-image: url('url-to-uranus-image.png');
+  }
+  
+*/

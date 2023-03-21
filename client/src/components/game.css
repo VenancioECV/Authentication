@@ -1,0 +1,86 @@
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #001b44;
+  }
+  
+  .game-board {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: #000;
+    border: 5px solid #fff;
+  }
+  
+  .planet {
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  #sun {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    box-shadow: 0 0 50px yellow;
+    top: 250px;
+    left: 350px;
+  }
+  
+  #mercury {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    box-shadow: 0 0 10px gray;
+  }
+  
+  #venus {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    box-shadow: 0 0 15px orange;
+  }
+  
+  #earth {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    box-shadow: 0 0 20px blue;
+  }
+  
+  #mars {
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    box-shadow: 0 0 15px red;
+  }
+  
+  #jupiter {
+    width: 90px;
+    height: 90px;
+    background-color: brown;
+    box-shadow: 0 0 50px brown;
+  }
+  
+  #saturn {
+    width: 80px;
+    height: 80px;
+    background-color: tan;
+    box-shadow: 0 0 30px tan;
+  }
+  
+  #uranus {
+    width: 60px;
+    height: 60px;
+    background-color: lightblue;
+    box-shadow: 0 0 25px lightblue;
+  }
+  
+  #neptune {
+    width: 55px;
+    height: 55px;
+    background-color: darkblue;
+    box-shadow: 0 0 25px darkblue;
+  }
+  
